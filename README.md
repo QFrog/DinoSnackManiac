@@ -1,5 +1,5 @@
 # DinoSnackManiac
-The game about dino's
+The game about dino's throwing cookies at people.
 
 how to use github on unity
 1. install github desktop
