@@ -26,9 +26,13 @@ Github
 
 # Credits
 Quinn Huhnke Programmer
+
 , Programmer
+
 , Artist
+
 , Artist
+
 University of Wisconsin - Stout, 2020
 
 # Known Bugs
