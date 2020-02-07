@@ -6,15 +6,18 @@ public class PlayerAim : MonoBehaviour
 {
 
     public Transform hand;
-
-    private GameObject cookie;
     public GameObject cookie1;
     public GameObject cookie2;
     public GameObject cookie3;
 
+    private GameObject cookie;
+
     private Vector2 lookDirection;
     private float lookAngle;
-
+    private void Start()
+    {
+        cookie = cookie1;
+    }
     void Update()
     {
         lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
