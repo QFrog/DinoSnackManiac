@@ -7,23 +7,29 @@ public class PlayerController : MonoBehaviour
     public float speed;
     bool facingRight = true;
     private Rigidbody2D rb2d;
+    private SpriteRenderer dino;
+    public SpriteRenderer hand;
+    Vector3 change;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        dino = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
         var delta = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-
         if (delta.x >= 0 && !facingRight)
         { // mouse is on right side of player
-            transform.localScale = new Vector3(1, 1, 1); // or activate look right some other way
+            dino.flipX = true; // activate look right some other way
+            hand.flipX = true;
             facingRight = true;
         }
         else if (delta.x < 0 && facingRight)
         { // mouse is on left side
-            transform.localScale = new Vector3(-1, 1, 1); // activate looking left
+            dino.flipX = false; // activate look right some other way
+            hand.flipX = false;
+            // activate looking left
             facingRight = false;
         }
     }
