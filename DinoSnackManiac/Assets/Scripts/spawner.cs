@@ -21,7 +21,7 @@ public class spawner : MonoBehaviour {
 
 
   // Update is called once per frame
-  void Update() {
+  private void Update() {
     rand = Random.Range(1, 2);
 
     timeUntilSpawn += Time.deltaTime;

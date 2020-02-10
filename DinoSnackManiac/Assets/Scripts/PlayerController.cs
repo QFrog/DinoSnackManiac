@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
     public SpriteRenderer hand;
+    public Vector3 playerLocation; //I'm using this for enemy tracking
     Vector3 change;
 
     void Start()
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         var delta = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        playerLocation = transform.position;
         if (delta.x >= 0 && !facingRight)
         { // mouse is on right side of player
             dino.flipX = true; // activate look right some other way
