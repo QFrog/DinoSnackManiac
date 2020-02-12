@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 361295547}
   - component: {fileID: 361295549}
   - component: {fileID: 361295548}
+  - component: {fileID: 361295550}
+  - component: {fileID: 361295551}
   m_Layer: 0
   m_Name: CookieType2
   m_TagString: Untagged
@@ -226,6 +228,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &361295550
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361295546}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.3999999
+--- !u!114 &361295551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361295546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c8468bbc1e25c4ea9036751a29b19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &483835007
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +950,8 @@ GameObject:
   - component: {fileID: 2058109706}
   - component: {fileID: 2058109708}
   - component: {fileID: 2058109707}
+  - component: {fileID: 2058109709}
+  - component: {fileID: 2058109710}
   m_Layer: 0
   m_Name: CookieType1
   m_TagString: Untagged
@@ -1014,6 +1046,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2058109709
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058109705}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4.2949996
+--- !u!114 &2058109710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058109705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c8468bbc1e25c4ea9036751a29b19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2093025566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1086,8 @@ GameObject:
   - component: {fileID: 2093025567}
   - component: {fileID: 2093025569}
   - component: {fileID: 2093025568}
+  - component: {fileID: 2093025570}
+  - component: {fileID: 2093025571}
   m_Layer: 0
   m_Name: CookieType3
   m_TagString: Untagged
@@ -1120,6 +1182,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2093025570
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093025566}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000038146973, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.5949998
+--- !u!114 &2093025571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093025566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c8468bbc1e25c4ea9036751a29b19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101332494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1361,17 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4336458903493512060, guid: 3c0d4a4aead430b4f85818874a03ba7e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d1a5ef708783d54190bd23c644bd3e7,
+        type: 3}
+    - target: {fileID: 4336458903493512060, guid: 3c0d4a4aead430b4f85818874a03ba7e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c0d4a4aead430b4f85818874a03ba7e, type: 3}
 --- !u!1001 &4323250455052301101
@@ -1340,6 +1441,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4323250456553391516, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d1a5ef708783d54190bd23c644bd3e7,
+        type: 3}
+    - target: {fileID: 4323250456553391516, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323250455204401168, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b0c0dcb805b64a8459f46f1e3d38f1b3,
+        type: 3}
     - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
         type: 3}
       propertyPath: cookie1
