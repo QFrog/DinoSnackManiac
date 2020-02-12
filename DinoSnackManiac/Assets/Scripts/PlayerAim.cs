@@ -100,6 +100,6 @@ public class PlayerAim : MonoBehaviour
         MouseCoords = Input.mousePosition;
         MouseCoords = Camera.main.ScreenToWorldPoint(MouseCoords);
         crosshair.transform.position = Vector2.Lerp(transform.position, MouseCoords, 1f);
-        print(MouseCoords);
+       // print(MouseCoords);
     }
 }

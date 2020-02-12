@@ -35,17 +35,25 @@ public class enemy : MonoBehaviour {
   }
 
 
-  public void Update() {
+
+  public void FixedUpdate() {
+
     //gets player location
-    //playerPos = player.transform.position;
     GameObject thePlayer = GameObject.Find("PlayerDino");
     PlayerController playerL = thePlayer.GetComponent<PlayerController>();
     playerPos = playerL.playerLocation;
     //calls movements
     StartCoroutine(movement(playerPos));
+    //calls the standup function
+    standUp();
+
+
   }
 
-
+  //keeps players and enemies from spinning
+  private void standUp() {
+    transform.localEulerAngles = new Vector3(0, 0, 0);
+  }
 
 
 
