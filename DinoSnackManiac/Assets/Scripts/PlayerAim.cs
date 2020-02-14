@@ -16,15 +16,16 @@ public class PlayerAim : MonoBehaviour
     int cookieAmmo1 = 10;
     int cookieAmmo2 = 10;
     int cookieAmmo3 = 10;
+    bool facingRight = true;
 
     private GameObject cookie;
-    private Transform hand;
+    private Transform hands;
     private Vector2 lookDirection;
     private Vector3 MouseCoords;
     private float lookAngle;
     private void Start()
     {
-        hand = GetComponent<Transform>();
+        hands = GetComponent<Transform>();
         cookie = cookie1;
     }
     void Update()
@@ -62,8 +63,8 @@ public class PlayerAim : MonoBehaviour
             {
                 cookieAmmo1--;
                 cookieText1.text = cookieAmmo1.ToString();
-                GameObject thrownCookie = Instantiate(cookie, hand.position, hand.rotation);
-                thrownCookie.GetComponent<Rigidbody2D>().velocity = hand.up * 10f;
+                GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
+                thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }
         }
         else if (cookie == cookie2)
@@ -76,8 +77,8 @@ public class PlayerAim : MonoBehaviour
             {
                 cookieAmmo2--;
                 cookieText2.text = cookieAmmo2.ToString();
-                GameObject thrownCookie = Instantiate(cookie, hand.position, hand.rotation);
-                thrownCookie.GetComponent<Rigidbody2D>().velocity = hand.up * 10f;
+                GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
+                thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }
         }
         else if (cookie == cookie3)
@@ -90,8 +91,8 @@ public class PlayerAim : MonoBehaviour
             {
                 cookieAmmo3--;
                 cookieText3.text = cookieAmmo3.ToString();
-                GameObject thrownCookie = Instantiate(cookie, hand.position, hand.rotation);
-                thrownCookie.GetComponent<Rigidbody2D>().velocity = hand.up * 10f;
+                GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
+                thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }
         }
     }
@@ -100,6 +101,5 @@ public class PlayerAim : MonoBehaviour
         MouseCoords = Input.mousePosition;
         MouseCoords = Camera.main.ScreenToWorldPoint(MouseCoords);
         crosshair.transform.position = Vector2.Lerp(transform.position, MouseCoords, 1f);
-        // print(MouseCoords);
     }
 }

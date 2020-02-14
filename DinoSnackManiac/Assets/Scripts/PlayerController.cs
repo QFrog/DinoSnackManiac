@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     bool facingRight = true;
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
-    public SpriteRenderer hand;
     public Vector3 playerLocation; //I'm using this for enemy tracking
     Vector3 change;
     public Camera cam;
@@ -38,14 +37,12 @@ public class PlayerController : MonoBehaviour
 
         if (delta.x >= 0 && !facingRight)
         { // mouse is on right side of player
-            dino.flipX = true; // activate look right some other way
-            hand.flipX = true;
+            dino.flipX = true; // activate look right some other way;
             facingRight = true;
         }
         else if (delta.x < 0 && facingRight)
         { // mouse is on left side
             dino.flipX = false; // activate look right some other way
-            hand.flipX = false;
             // activate looking left
             facingRight = false;
         }
