@@ -8,21 +8,21 @@ public class spawner : MonoBehaviour {
   public GameObject cookieEnemyPrefab;
   public GameObject spawnerPrefab;
   //Spawner Variables
-  private int waveGrowth = 1;
-  private int enemiesToSpawn;
+  private float waveGrowth = 1;
+  private float enemiesToSpawn;
   public float timeUntilSpawn = 0;
   public float spawnCooldown = 30;
-  private int rand = 1;
+  private float rand = 1;
 
   //random number at start
   private void Start() {
-    int rand = Random.Range(1, 2);
+    int rand = Random.Range(1, 5);
   }
 
 
   // Update is called once per frame
   private void Update() {
-    rand = Random.Range(1, 2);
+    rand = Random.Range(1, 5);
 
     timeUntilSpawn += Time.deltaTime;
    
@@ -40,21 +40,25 @@ public class spawner : MonoBehaviour {
 
 
 
-
+  //private float n = 0;
 
   private void spawnCookie() {
 
     Vector3 spawnerPos = transform.position + new Vector3(rand, rand, 0);
- 
+
     //Sets up spawn range and spawning of a single enemy
     // Vector3 pos = new Vector3(Random.Range(rand, rand), Random.Range(rand, rand), 0);
-
+    
     //Spawning a random amount of enemies
     for (enemiesToSpawn = (rand * waveGrowth); enemiesToSpawn >= 0; enemiesToSpawn--) {
       GameObject spawner = Instantiate(cookieEnemyPrefab, spawnerPos, Quaternion.identity) as GameObject;
     }
 
   }
+ 
+  public float factorial(float n) {
+    if (n == 0) return (1);
 
-
+    return (n * factorial(n - 1));
+  }
 }
