@@ -6,16 +6,20 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     bool facingRight = true;
-    private Rigidbody2D rb2d;
-    private SpriteRenderer dino;
     public Vector3 playerLocation; //I'm using this for enemy tracking
     Vector3 change;
     public Camera cam;
+    public GameObject GameMan;
+
+    private Rigidbody2D rb2d;
+    private SpriteRenderer dino;
+    private Variables ammo;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         dino = GetComponent<SpriteRenderer>();
+        ammo = GameMan.GetComponent<Variables>();
 
     }
     void Update()
@@ -66,6 +70,20 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 newPosition = new Vector3(transform.position.x, 2, transform.position.z);
             transform.position = newPosition;
+        }
+    }
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+
+        if (coll.gameObject.tag == "ammo")
+        {
+            ammo.cookieAmmo1 += 10;
+            ammo.cookieText1.text = ammo.cookieAmmo1.ToString();
+            ammo.cookieAmmo2 += 10;
+            ammo.cookieText2.text = ammo.cookieAmmo2.ToString();
+            ammo.cookieAmmo3 += 10;
+            ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
+            Destroy(coll.gameObject);
         }
     }
 }

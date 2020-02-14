@@ -10,14 +10,9 @@ public class PlayerAim : MonoBehaviour
     public GameObject cookie2;
     public GameObject cookie3;
     public GameObject crosshair;
-    public Text cookieText1;
-    public Text cookieText2;
-    public Text cookieText3;
-    int cookieAmmo1 = 10;
-    int cookieAmmo2 = 10;
-    int cookieAmmo3 = 10;
-    bool facingRight = true;
+    public GameObject GameMan;
 
+    private Variables ammo;
     private GameObject cookie;
     private Transform hands;
     private Vector2 lookDirection;
@@ -27,6 +22,9 @@ public class PlayerAim : MonoBehaviour
     {
         hands = GetComponent<Transform>();
         cookie = cookie1;
+        ammo = GameMan.GetComponent<Variables>();
+
+
     }
     void Update()
     {
@@ -55,42 +53,42 @@ public class PlayerAim : MonoBehaviour
     {
         if (cookie == cookie1)
         {
-            if (cookieAmmo1 == 0)
+            if (ammo.cookieAmmo1 == 0)
             {
 
             }
             else
             {
-                cookieAmmo1--;
-                cookieText1.text = cookieAmmo1.ToString();
+                ammo.cookieAmmo1--;
+                ammo.cookieText1.text = ammo.cookieAmmo1.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }
         }
         else if (cookie == cookie2)
         {
-            if (cookieAmmo2 == 0)
+            if (ammo.cookieAmmo2 == 0)
             {
 
             }
             else
             {
-                cookieAmmo2--;
-                cookieText2.text = cookieAmmo2.ToString();
+                ammo.cookieAmmo2--;
+                ammo.cookieText2.text = ammo.cookieAmmo2.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }
         }
         else if (cookie == cookie3)
         {
-            if (cookieAmmo3 == 0)
+            if (ammo.cookieAmmo3 == 0)
             {
 
             }
             else
             {
-                cookieAmmo3--;
-                cookieText3.text = cookieAmmo3.ToString();
+                ammo.cookieAmmo3--;
+                ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
             }

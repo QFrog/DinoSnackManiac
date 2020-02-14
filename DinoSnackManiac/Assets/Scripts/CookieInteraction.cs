@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CookieDeath : MonoBehaviour
+public class CookieInteraction : MonoBehaviour
 {
     private float timer;
     void Update()
@@ -40,7 +40,6 @@ public class CookieDeath : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D coll)
     {
-        UnityEngine.Debug.Log("Colliding on object: " + coll.gameObject.tag);
 
         if (coll.gameObject.tag == "enemy")
         {
