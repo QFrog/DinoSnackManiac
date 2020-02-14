@@ -38,7 +38,7 @@ public class CookieDeath : MonoBehaviour
             }
         }
     }
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         UnityEngine.Debug.Log("Colliding on object: " + coll.gameObject.tag);
 
