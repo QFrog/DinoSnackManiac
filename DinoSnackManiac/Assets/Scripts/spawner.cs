@@ -56,6 +56,8 @@ public class spawner : MonoBehaviour {
 
   }
  
+
+  //DO NOT USE
   public float factorial(float n) {
     if (n == 0) return (1);
 
