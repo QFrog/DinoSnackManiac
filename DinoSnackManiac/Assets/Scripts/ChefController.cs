@@ -48,7 +48,7 @@ public class ChefController : MonoBehaviour
         {
             there = true;
         }
-        if(count > 100)
+        if(count > 50)
         {
             CookieDrop();
             count = 0;
