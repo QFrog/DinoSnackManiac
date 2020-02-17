@@ -6,17 +6,20 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     bool facingRight = true;
-    private Rigidbody2D rb2d;
-    private SpriteRenderer dino;
-    public SpriteRenderer hand;
     public Vector3 playerLocation; //I'm using this for enemy tracking
     Vector3 change;
     public Camera cam;
+    public GameObject GameMan;
+
+    private Rigidbody2D rb2d;
+    private SpriteRenderer dino;
+    private Variables ammo;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         dino = GetComponent<SpriteRenderer>();
+        ammo = GameMan.GetComponent<Variables>();
 
     }
     void Update()
@@ -38,14 +41,12 @@ public class PlayerController : MonoBehaviour
 
         if (delta.x >= 0 && !facingRight)
         { // mouse is on right side of player
-            dino.flipX = true; // activate look right some other way
-            hand.flipX = true;
+            dino.flipX = true; // activate look right some other way;
             facingRight = true;
         }
         else if (delta.x < 0 && facingRight)
         { // mouse is on left side
             dino.flipX = false; // activate look right some other way
-            hand.flipX = false;
             // activate looking left
             facingRight = false;
         }
@@ -69,6 +70,20 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 newPosition = new Vector3(transform.position.x, 2, transform.position.z);
             transform.position = newPosition;
+        }
+    }
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+
+        if (coll.gameObject.tag == "ammo")
+        {
+            ammo.cookieAmmo1 += 10;
+            ammo.cookieText1.text = ammo.cookieAmmo1.ToString();
+            ammo.cookieAmmo2 += 10;
+            ammo.cookieText2.text = ammo.cookieAmmo2.ToString();
+            ammo.cookieAmmo3 += 10;
+            ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
+            Destroy(coll.gameObject);
         }
     }
 }
