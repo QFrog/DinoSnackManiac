@@ -5,28 +5,20 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
   public GameObject theEnemy;
-  public float score = 0;
-  public bool enemyHit_ = false;
+  public static float score = 0;
+  
   
   // Start is called before the first frame update
   void Start() {
-    
 
-    //GameObject theEnemy = GameObject.Find("enemyScripts");
-
-    //enemy eHit = theEnemy.GetComponent<enemy>();
-    ////score += eScore.scoreEnemy;
-    //enemyHit_ = eHit.enemyHit;
-
+    score = enemy.scoreEnemy;
   }
 
   // Update is called once per frame
   void Update() {
-    //score += scoreEnemy;
-    //if (enemyHit_) {
-    //  score += 100;
-    //  print("The score:" + score);
-    //}
+
+    score = enemy.scoreEnemy;
+    //print("The score:" + score);
   }
 
 

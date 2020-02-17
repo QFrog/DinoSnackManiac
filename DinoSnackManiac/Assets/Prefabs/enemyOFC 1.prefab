@@ -107,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 8}
+  m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &3937683029036198956
 MonoBehaviour:
@@ -121,14 +121,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1528950bab677c44cbae8e8aa27f53f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1
   collisionLayer:
     serializedVersion: 2
     m_Bits: 0
   player: {fileID: 4323250456553391490, guid: 1e08ca79bee8447408806600180a0fcf, type: 3}
   theEnemy: {fileID: 8266207922707827182}
   playerPos: {x: 0, y: 0, z: 0}
-  scoreEnemy: 0
+  enemyHit: 0
 --- !u!50 &3862911970269822392
 Rigidbody2D:
   serializedVersion: 4

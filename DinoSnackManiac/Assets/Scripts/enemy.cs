@@ -67,15 +67,9 @@ public class enemy : MonoBehaviour {
 
 
   public void OnDisable() {
-    print("I have brain damage");
+   
     scoreEnemy += 100;
-    // getScore(100);
-    //GameObject theEnemy = GameObject.Find("GameManager");
-
-    //GameManager eScore = theEnemy.GetComponent<GameManager>();
-    //scoreEnemy = eScore.score;
     //print(scoreEnemy);
-    print(scoreEnemy);
 
   }
 
@@ -112,8 +106,6 @@ public class enemy : MonoBehaviour {
       //Return and loop until sqrRemainingDistance is close enough to zero to end the function
       yield return null;
     }
-
-
 
   }
 
