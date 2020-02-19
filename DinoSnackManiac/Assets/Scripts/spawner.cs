@@ -8,15 +8,16 @@ public class spawner : MonoBehaviour {
   public GameObject cookieEnemyPrefab;
   public GameObject spawnerPrefab;
   //Spawner Variables
-  private int waveGrowth = 1;
-  private int enemiesToSpawn;
+  private float waveGrowth = 1f;
+  private float enemiesToSpawn;
   public float timeUntilSpawn = 0f;
   public int spawnCooldown = 10;
   private int rand = 1;
 
   public float stagger = .3f;
 
-  private int scoreMultiplier = 0;
+  private int scoreMultiplier = 500;
+  private float localScore = 0f;
 
   //random number at start
   private void Start() {
@@ -35,10 +36,14 @@ public class spawner : MonoBehaviour {
       StartCoroutine(cookieSpawner());
       //spawnCookie();
       timeUntilSpawn = 0;
-      waveGrowth++;
-      if (GameManager.score >= scoreMultiplier) {
-
+      waveGrowth += (.05f + (GameManager.score/10000));
+     // print("WaveGro: " + waveGrowth);
+      if (waveGrowth >= 10) {
+        waveGrowth = 10;
+        print("Wave cap");
+        print(waveGrowth);
       }
+      
     }
 
   }
@@ -69,7 +74,7 @@ public class spawner : MonoBehaviour {
 
     Vector3 spawnerPos = transform.position + new Vector3(Random.Range(1,2), Random.Range(1,2), 0);
 
-    for (enemiesToSpawn = (waveGrowth * scoreMultiplier); enemiesToSpawn >= 0; enemiesToSpawn--) {
+    for (enemiesToSpawn = (waveGrowth /** scoreMultiplier*/); enemiesToSpawn >= 0; enemiesToSpawn--) {
       yield return new WaitForSeconds(stagger);
       GameObject spawner = Instantiate(cookieEnemyPrefab, spawnerPos, Quaternion.identity) as GameObject;
     }

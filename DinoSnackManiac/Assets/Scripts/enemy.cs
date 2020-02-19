@@ -19,12 +19,11 @@ public class enemy : MonoBehaviour {
   public static int scoreEnemy = 0;
 
   public bool enemyHit = false;
+  private float timeCount = 0f;
 
 
   //Protected virtual functions can be overriden by inheriting classes
   protected virtual void Start() {
-
-
 
     //getting component references
     boxCollider = GetComponent<BoxCollider2D>();
@@ -56,6 +55,63 @@ public class enemy : MonoBehaviour {
     StartCoroutine(movement(playerPos));
     //calls the standup function
     standUp();
+
+    //increases enemy movespeed with score
+    if (GameManager.score >= 2000 && GameManager.score < 3000) {
+      moveSpeed = 1.15f;
+    }
+    if (GameManager.score >= 3000 && GameManager.score < 4000) {
+      moveSpeed = 1.25f;
+    }
+    else if (GameManager.score >= 4000 && GameManager.score < 5000) {
+      moveSpeed = 1.35f;
+    }
+    else if (GameManager.score >= 5000 && GameManager.score < 6000) {
+      moveSpeed = 1.45f;
+    }
+    else if (GameManager.score >= 6000 && GameManager.score < 7000) {
+      moveSpeed = 1.55f;
+    }
+    else if (GameManager.score >= 7000 && GameManager.score < 8000) {
+      moveSpeed = 1.6f;
+    }
+    else if (GameManager.score >= 8000 && GameManager.score < 9000) {
+      moveSpeed = 1.65f;
+    }
+    else if (GameManager.score >= 9000 && GameManager.score < 10000) {
+      moveSpeed = 1.75f;
+    }
+    else if (GameManager.score >= 10000 && GameManager.score < 12000) {
+      moveSpeed = 2f;
+    }
+    else if (GameManager.score >= 12000 && GameManager.score < 16000) {
+      moveSpeed = 2.25f;
+    }
+    else if (GameManager.score >= 16000 && GameManager.score < 25000) {
+      moveSpeed = 2.35f;
+    }
+    else if (GameManager.score >= 25000 && GameManager.score < 30000) {
+      moveSpeed = 2.45f;
+    }
+    else if (GameManager.score >= 30000 && GameManager.score < 50000) {
+      moveSpeed = 2.55f;
+    }
+    else if (GameManager.score >= 50000 && GameManager.score < 70000) {
+      moveSpeed = 2.65f;
+    }
+    else if (GameManager.score >= 70000 && GameManager.score < 80000) {
+      moveSpeed = 2.75f;
+    }
+    else if (GameManager.score >= 80000 && GameManager.score < 100000) {
+      moveSpeed = 2.85f;
+    }
+    else if (GameManager.score >= 80000 && GameManager.score < 100000) {
+      moveSpeed = 2.95f;
+    }
+    else if (GameManager.score >= 100000) {
+      moveSpeed = 3f;
+    }
+
 
 
   }

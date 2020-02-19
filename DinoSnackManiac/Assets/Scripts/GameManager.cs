@@ -1,23 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour {
 
-  public GameObject theEnemy;
+  private GameObject theEnemy;
   public static float score = 0;
-  
+
+  Text scoreDisplay;
   
   // Start is called before the first frame update
   void Start() {
 
     score = enemy.scoreEnemy;
+    scoreDisplay = GetComponent<Text>();
   }
 
   // Update is called once per frame
-  void Update() {
+  void FixedUpdate() {
 
     score = enemy.scoreEnemy;
+    scoreDisplay.text = "Score:    " + score;
     //print("The score:" + score);
   }
 
@@ -25,5 +30,7 @@ public class GameManager : MonoBehaviour {
   public void addScore() {
 
   }
+
+  
 
 }
