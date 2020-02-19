@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 36ff7ac996d8ad743b32c5e4162a9dd9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1657323419008316412
+    second: DinoWalk_Spritesheet_0
+  - first:
+      213: -3825227155496261711
+    second: DinoWalk_Spritesheet_1
+  - first:
+      213: 5427375136255554288
+    second: DinoWalk_Spritesheet_2
+  - first:
+      213: -3065198440536086348
+    second: DinoWalk_Spritesheet_3
+  - first:
+      213: -2772328440663787822
+    second: DinoWalk_Spritesheet_4
+  - first:
+      213: 7734164401014780254
+    second: DinoWalk_Spritesheet_5
+  - first:
+      213: 3466307508557928222
+    second: DinoWalk_Spritesheet_6
+  - first:
+      213: 1563105295930508943
+    second: DinoWalk_Spritesheet_7
+  - first:
+      213: 8708966913899368620
+    second: DinoWalk_Spritesheet_8
+  - first:
+      213: 6355452837047166137
+    second: DinoWalk_Spritesheet_9
+  - first:
+      213: -6634578768766958428
+    second: DinoWalk_Spritesheet_10
+  - first:
+      213: -2679155487509864806
+    second: DinoWalk_Spritesheet_11
+  - first:
+      213: 3338263108669322164
+    second: DinoWalk_Spritesheet_12
+  - first:
+      213: 6060038149980080230
+    second: DinoWalk_Spritesheet_13
+  - first:
+      213: -4389594518992574251
+    second: DinoWalk_Spritesheet_14
+  - first:
+      213: 3886330995562905458
+    second: DinoWalk_Spritesheet_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +118,357 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 4062
+        width: 908
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745a24b4fbd34f343b0986e57a6d3267
+      internalID: 1657323419008316412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 4068
+        width: 899
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938c27c604b732a46a939cc777bb4123
+      internalID: -3825227155496261711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 4075
+        width: 933
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284e667554a40ba498f25139297d07f1
+      internalID: 5427375136255554288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 4065
+        width: 939
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a2026e07cf0e94fbd5fa5825110188
+      internalID: -3065198440536086348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5291
+        y: 4053
+        width: 923
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3280f68a18e1a64ab3867e8c9bb0d39
+      internalID: -2772328440663787822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2789
+        width: 915
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8c4d42ed5c1aa4f8dba2b5ffd1bbf6
+      internalID: 7734164401014780254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2795
+        width: 925
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf578369b14444b95857148eca941c
+      internalID: 3466307508557928222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 2789
+        width: 899
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18192f7135555a64295fae30ddce54e5
+      internalID: 1563105295930508943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4030
+        y: 2795
+        width: 908
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96696749285be24438a87c4daa0e842a
+      internalID: 8708966913899368620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5294
+        y: 2802
+        width: 898
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449eb05ff0e711b4f8252aa6983b2ae3
+      internalID: 6355452837047166137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1551
+        width: 930
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8100a09742c3ef2459e89834d24a05a2
+      internalID: -6634578768766958428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1542
+        width: 936
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f682219018bc24c8f22187f0061040
+      internalID: -2679155487509864806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1529
+        width: 921
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc397dc770d9df2418e4fa96cbdd3d0f
+      internalID: 3338263108669322164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 1529
+        width: 917
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db5fb83d6caac43bb3696532288f5a
+      internalID: 6060038149980080230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 5275
+        y: 1538
+        width: 924
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22292b6e0699be644a62af4ed74b35ae
+      internalID: -4389594518992574251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinoWalk_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 259
+        width: 898
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d64c508c9f4bfe479ac8b57bdcde42c
+      internalID: 3886330995562905458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
