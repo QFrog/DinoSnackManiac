@@ -16,7 +16,6 @@ public class ChefController : MonoBehaviour
     bool there;
     float cookieTimer;
     int count;
-    int random;
 
     void Start()
     {
@@ -54,13 +53,20 @@ public class ChefController : MonoBehaviour
             there = true;
             StartCoroutine(waiter());
         }
-        if (count == Random.Range(60, 100))
+        if (count == Random.Range(600, 2400))
         {
-            Debug.Log("Spawning cookie");
-            CookieDrop();
+            if(transform.position.x > 8.5 || transform.position.x < -8.5)
+            {
+
+            }
+            else
+            {
+                Debug.Log("Spawning cookie");
+                CookieDrop();
+            }
             count = 0;
         }
-        if (count > 600)
+        if (count > 100)
         {
             count = 0;
         }

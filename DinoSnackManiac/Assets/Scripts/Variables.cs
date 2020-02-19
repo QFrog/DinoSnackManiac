@@ -22,7 +22,7 @@ public class Variables : MonoBehaviour
         if (cookieA)
         {
             cookie = cookieA.GetComponent<Transform>();
-            if (cookie.position.y < -10 || cookie.position.x > 9 || cookie.position.x < -9)
+            if (cookie.position.y < -10 || cookie.position.x > 8.5 || cookie.position.x < -8.5)
             {
                 Destroy(cookieA.gameObject);
             }

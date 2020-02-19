@@ -13,7 +13,7 @@ public class CookieInteraction : MonoBehaviour
         if (c1)
         {
             timer += 1.0F * Time.deltaTime;
-            if (timer >= 3)
+            if (timer >= 4)
             {
                 Destroy(c1.gameObject);
                 timer = 0;

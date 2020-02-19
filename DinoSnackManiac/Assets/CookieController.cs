@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class CookieController : MonoBehaviour
 {
-    Rigidbody2D cookieGrav;
-    Transform cookieLoc;
+    private Rigidbody2D cookieBody;
+    private Transform cookieLoc;
     int count;
     int random;
     void Start()
     {
         cookieLoc = GetComponent<Transform>();
-        cookieGrav = GetComponent<Rigidbody2D>();
+        cookieBody = GetComponent<Rigidbody2D>();
+        cookieBody.constraints = RigidbodyConstraints2D.None;
     }
     void FixedUpdate()
     {
@@ -19,8 +20,8 @@ public class CookieController : MonoBehaviour
         if (cookieLoc.position.y > (random - 0.1) && cookieLoc.position.y < (random + 0.1))
         {
             //Debug.Log("Stopping cookie");
-            cookieGrav.isKinematic = false;
-            cookieGrav.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+            cookieBody.isKinematic = false;
+            cookieBody.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         }
         count++;
         //Debug.Log(count);
