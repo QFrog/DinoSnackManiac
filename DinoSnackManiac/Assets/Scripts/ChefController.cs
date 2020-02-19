@@ -5,9 +5,18 @@ using UnityEngine;
 public class ChefController : MonoBehaviour
 {
     public Transform target;
-    Vector3 start;
-
+    public GameObject cookieRefill;
+    public float fallSpeed = 8.0f;
+    public float spinSpeed = 250.0f;
     public float speed = 3;
+
+    private Transform cookieLoc;
+    private Rigidbody2D cookieGrav;
+    Vector3 start;
+    bool there;
+    bool cookieTimer;
+    float timer = 0;
+    int count;
 
     void Start()
     {
@@ -37,16 +46,40 @@ public class ChefController : MonoBehaviour
         transform.Translate(dir * move);
 
         //reset position
-        if(transform.position == target.position)
+        if (transform.position == target.position)
         {
-            waiter();
-            transform.position = start;
+            there = true;
         }
+        CookieDrop();
+        if (cookieLoc.position.y == Random.Range(2, -5))
+            {
+                cookieGrav.gravityScale = 0;
+            }
+            count = 0;
+            cookieTimer = true;
+        StartCoroutine(waiter());
+        count++;
     }
-
+    void CookieDrop()
+    { 
+        GameObject droppedCookie = Instantiate(cookieRefill, transform.position, transform.rotation);
+        cookieLoc = droppedCookie.GetComponent<Transform>();
+        cookieGrav = droppedCookie.GetComponent<Rigidbody2D>();
+        StartCoroutine(waiter());
+    }
     IEnumerator waiter()
     {
         //Wait for 4 seconds
-        yield return new WaitForSecondsRealtime(4);
+        if (there == true)
+        {
+            yield return new WaitForSecondsRealtime(2);
+            transform.position = start;
+            there = false;
+        }
+        if (cookieTimer == true)
+        {
+            yield return new WaitForSecondsRealtime(2);
+            cookieTimer = false;
+        }
     }
 }

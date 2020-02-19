@@ -14,12 +14,17 @@ public class enemy : MonoBehaviour {
   private float counter = 0;
 
   public GameObject player;
+  public GameObject theEnemy;
   public Vector3 playerPos;
+  public static int scoreEnemy = 0;
 
+  public bool enemyHit = false;
 
 
   //Protected virtual functions can be overriden by inheriting classes
   protected virtual void Start() {
+
+
 
     //getting component references
     boxCollider = GetComponent<BoxCollider2D>();
@@ -38,8 +43,13 @@ public class enemy : MonoBehaviour {
 
   public void FixedUpdate() {
 
+
+
+
     //gets player location
+    //finds the object named PlayerDino
     GameObject thePlayer = GameObject.Find("PlayerDino");
+
     PlayerController playerL = thePlayer.GetComponent<PlayerController>();
     playerPos = playerL.playerLocation;
     //calls movements
@@ -56,7 +66,12 @@ public class enemy : MonoBehaviour {
   }
 
 
+  public void OnDisable() {
+   
+    scoreEnemy += 100;
+    //print(scoreEnemy);
 
+  }
 
 
 
@@ -80,7 +95,7 @@ public class enemy : MonoBehaviour {
       if (counter >= 3) {
         end = playerPos;
       }
-      
+
 
       //Call MovePosition on attached Rigidbody2D and move it to the calculated position.
       rigid.MovePosition(newPos);
@@ -92,12 +107,13 @@ public class enemy : MonoBehaviour {
       yield return null;
     }
 
-
-
-
   }
 
 
+  //public float getScore(float f) {
+  //  scoreEnemy = f;
+  //  return scoreEnemy;
+  //}
 
 
 
