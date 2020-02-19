@@ -10,6 +10,8 @@ public class ChefController : MonoBehaviour
     public float spinSpeed = 250.0f;
     public float speed = 3;
 
+    private Transform cookieLoc;
+    private Rigidbody2D cookieGrav;
     Vector3 start;
     bool there;
     bool cookieTimer;
@@ -48,18 +50,21 @@ public class ChefController : MonoBehaviour
         {
             there = true;
         }
-        if(count > 50)
-        {
-            CookieDrop();
+        CookieDrop();
+        if (cookieLoc.position.y == Random.Range(2, -5))
+            {
+                cookieGrav.gravityScale = 0;
+            }
             count = 0;
             cookieTimer = true;
-        }
         StartCoroutine(waiter());
         count++;
     }
     void CookieDrop()
     { 
         GameObject droppedCookie = Instantiate(cookieRefill, transform.position, transform.rotation);
+        cookieLoc = droppedCookie.GetComponent<Transform>();
+        cookieGrav = droppedCookie.GetComponent<Rigidbody2D>();
         StartCoroutine(waiter());
     }
     IEnumerator waiter()
