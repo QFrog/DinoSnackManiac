@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -85,5 +86,8 @@ public class PlayerController : MonoBehaviour
             ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
             Destroy(coll.gameObject);
         }
+    if (coll.gameObject.tag == "enemy") {
+      SceneManager.LoadScene("StartScene");
+    }
     }
 }
