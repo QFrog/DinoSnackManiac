@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
             Destroy(coll.gameObject);
         }
     if (coll.gameObject.tag == "enemy") {
-      SceneManager.LoadScene("StartScene");
+      SceneManager.LoadScene("GameOver");
     }
     }
 }
