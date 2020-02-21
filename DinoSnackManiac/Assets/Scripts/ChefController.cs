@@ -53,7 +53,7 @@ public class ChefController : MonoBehaviour
             there = true;
             StartCoroutine(waiter());
         }
-        if (count == Random.Range(600, 2400))
+        if (count == Random.Range(60, 100))
         {
             if(transform.position.x > 8.5 || transform.position.x < -8.5)
             {

@@ -63,6 +63,7 @@ public class PlayerAim : MonoBehaviour
                 ammo.cookieText1.text = ammo.cookieAmmo1.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
+                Destroy(thrownCookie, 4.0f);
             }
         }
         else if (cookie == cookie2)
@@ -77,6 +78,7 @@ public class PlayerAim : MonoBehaviour
                 ammo.cookieText2.text = ammo.cookieAmmo2.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
+                Destroy(thrownCookie, 4.0f);
             }
         }
         else if (cookie == cookie3)
@@ -91,6 +93,7 @@ public class PlayerAim : MonoBehaviour
                 ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
                 GameObject thrownCookie = Instantiate(cookie, hands.position, hands.rotation);
                 thrownCookie.GetComponent<Rigidbody2D>().velocity = hands.up * 10f;
+                Destroy(thrownCookie, 4.0f);
             }
         }
     }
