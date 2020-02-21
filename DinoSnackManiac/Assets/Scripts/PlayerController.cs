@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
             ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
             Destroy(coll.gameObject);
         }
-    if (coll.gameObject.tag == "enemy") {
+    if (coll.gameObject.tag == "enemy"|| coll.gameObject.tag == "enemy1" || coll.gameObject.tag == "enemy2") {
       SceneManager.LoadScene("StartScene");
     }
     }

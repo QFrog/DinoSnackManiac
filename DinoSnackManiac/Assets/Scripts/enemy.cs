@@ -15,6 +15,7 @@ public class enemy : MonoBehaviour {
 
   public GameObject player;
   public GameObject theEnemy;
+  private SpriteRenderer enemySprite;
   public Vector3 playerPos;
   public static int scoreEnemy = 0;
 
@@ -28,7 +29,7 @@ public class enemy : MonoBehaviour {
     //getting component references
     boxCollider = GetComponent<BoxCollider2D>();
     rigid = GetComponent<Rigidbody2D>();
-
+    enemySprite = GetComponent<SpriteRenderer>();
     //storing reciprocal of move speed we can use it to multiply instead of dividing (efficient)
     inverseMoveSpeed = 1f / moveSpeed;
 
@@ -43,7 +44,18 @@ public class enemy : MonoBehaviour {
   public void FixedUpdate() {
 
 
+    if (theEnemy.transform.position.x <= playerPos.x) {
+      //print("Player Location" + playerPos.y);
+      //print("Enemy Location" + theEnemy.transform.position.y);
+      theEnemy.transform.localRotation = Quaternion.Euler(0, 0, 0);
+      enemySprite.flipX = true;
+    }
+    else {
+      theEnemy.transform.localRotation = Quaternion.Euler(180, 180, 0);
+      enemySprite.flipX = false;
+    }
 
+    //transform.rotation = Quaternion.LookRotation(moveVec, Vector3.back);
 
     //gets player location
     //finds the object named PlayerDino
@@ -121,9 +133,15 @@ public class enemy : MonoBehaviour {
     transform.localEulerAngles = new Vector3(0, 0, 0);
   }
 
+  //private void facePlayer() {
+  //  if (theEnemy.transform.position == (-1* (playerPos))) {
+
+  //  }
+  //}
+
 
   public void OnDisable() {
-   
+
     scoreEnemy += 100;
     //print(scoreEnemy);
 
