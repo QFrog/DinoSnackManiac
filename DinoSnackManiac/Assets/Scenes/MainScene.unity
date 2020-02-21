@@ -588,6 +588,12 @@ PrefabInstance:
       propertyPath: spawnerPrefab
       value: 
       objectReference: {fileID: 481943190}
+    - target: {fileID: 7451098139269493400, guid: d9cbab2cbd4fb1f489b8bcf4df28321b,
+        type: 3}
+      propertyPath: cookieEnemyPrefab1
+      value: 
+      objectReference: {fileID: 3441297526173582944, guid: 2484f378803d691458785164a387b48e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cbab2cbd4fb1f489b8bcf4df28321b, type: 3}
 --- !u!1 &481943190 stripped
@@ -1378,6 +1384,12 @@ PrefabInstance:
       propertyPath: cookieEnemyPrefab
       value: 
       objectReference: {fileID: 196733297}
+    - target: {fileID: 7451098139269493400, guid: d9cbab2cbd4fb1f489b8bcf4df28321b,
+        type: 3}
+      propertyPath: cookieEnemyPrefab1
+      value: 
+      objectReference: {fileID: 3441297526173582944, guid: 2484f378803d691458785164a387b48e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cbab2cbd4fb1f489b8bcf4df28321b, type: 3}
 --- !u!1 &1088124666
@@ -1818,7 +1830,7 @@ SpriteRenderer:
   m_Size: {x: 14.406275, y: 14.349999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1483131967
@@ -2037,6 +2049,12 @@ PrefabInstance:
       propertyPath: spawnerPrefab
       value: 
       objectReference: {fileID: 809615847}
+    - target: {fileID: 7451098139269493400, guid: d9cbab2cbd4fb1f489b8bcf4df28321b,
+        type: 3}
+      propertyPath: cookieEnemyPrefab1
+      value: 
+      objectReference: {fileID: 3441297526173582944, guid: 2484f378803d691458785164a387b48e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cbab2cbd4fb1f489b8bcf4df28321b, type: 3}
 --- !u!1 &1821891435
@@ -2154,7 +2172,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.15, y: 13}
+  m_Size: {x: 3.94, y: 6.1}
   m_EdgeRadius: 0
 --- !u!1001 &1911573965
 PrefabInstance:
@@ -2249,6 +2267,12 @@ PrefabInstance:
       propertyPath: spawnerPrefab
       value: 
       objectReference: {fileID: 986065394}
+    - target: {fileID: 7451098139269493400, guid: d9cbab2cbd4fb1f489b8bcf4df28321b,
+        type: 3}
+      propertyPath: cookieEnemyPrefab1
+      value: 
+      objectReference: {fileID: 3441297526173582944, guid: 2484f378803d691458785164a387b48e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cbab2cbd4fb1f489b8bcf4df28321b, type: 3}
 --- !u!1 &2058109705 stripped
@@ -2567,7 +2591,7 @@ PrefabInstance:
     - target: {fileID: 4323250455204401168, guid: 1e08ca79bee8447408806600180a0fcf,
         type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
         type: 3}
@@ -2586,29 +2610,14 @@ PrefabInstance:
       objectReference: {fileID: 47300740}
     - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
         type: 3}
-      propertyPath: crosshair
-      value: 
-      objectReference: {fileID: 881660848}
-    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
-        type: 3}
-      propertyPath: cookieText1
-      value: 
-      objectReference: {fileID: 856571411}
-    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
-        type: 3}
-      propertyPath: cookieText2
-      value: 
-      objectReference: {fileID: 1191204557}
-    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
-        type: 3}
-      propertyPath: cookieText3
-      value: 
-      objectReference: {fileID: 2101332496}
-    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
-        type: 3}
       propertyPath: GameMan
       value: 
       objectReference: {fileID: 532891667}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: crosshair
+      value: 
+      objectReference: {fileID: 881660848}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e08ca79bee8447408806600180a0fcf, type: 3}
 --- !u!1001 &6320877701831669480
