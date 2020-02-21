@@ -14,7 +14,6 @@ public class ChefController : MonoBehaviour
     private Rigidbody2D cookieGrav;
     Vector3 start;
     bool there;
-    float cookieTimer;
     int count;
 
     void Start()
