@@ -47,11 +47,11 @@ public class enemy : MonoBehaviour {
     if (theEnemy.transform.position.x <= playerPos.x) {
       //print("Player Location" + playerPos.y);
       //print("Enemy Location" + theEnemy.transform.position.y);
-      theEnemy.transform.localRotation = Quaternion.Euler(0, 0, 0);
+      
       enemySprite.flipX = true;
     }
     else {
-      theEnemy.transform.localRotation = Quaternion.Euler(180, 180, 0);
+      
       enemySprite.flipX = false;
     }
 
