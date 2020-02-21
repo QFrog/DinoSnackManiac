@@ -2376,6 +2376,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: cookie1
+      value: 
+      objectReference: {fileID: 2058109705}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: cookie2
+      value: 
+      objectReference: {fileID: 1523443725}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: cookie3
+      value: 
+      objectReference: {fileID: 47300740}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: GameMan
+      value: 
+      objectReference: {fileID: 532891667}
+    - target: {fileID: 4323250455204401169, guid: 1e08ca79bee8447408806600180a0fcf,
+        type: 3}
+      propertyPath: crosshair
+      value: 
+      objectReference: {fileID: 881660848}
     - target: {fileID: 4323250456553391516, guid: 1e08ca79bee8447408806600180a0fcf,
         type: 3}
       propertyPath: m_Sprite
