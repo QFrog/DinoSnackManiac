@@ -6,6 +6,11 @@ TagManager:
   tags:
   - enemy
   - ammo
+  - ammo1
+  - ammo2
+  - enemy1
+  - enemy2
+  - ammo3
   layers:
   - Default
   - TransparentFX

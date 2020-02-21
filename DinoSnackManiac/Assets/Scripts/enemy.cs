@@ -43,6 +43,16 @@ public class enemy : MonoBehaviour {
   public void FixedUpdate() {
 
 
+    if (theEnemy.transform.position.x <= playerPos.x) {
+      //print("Player Location" + playerPos.y);
+      //print("Enemy Location" + theEnemy.transform.position.y);
+      
+      enemySprite.flipX = true;
+    }
+    else {
+      
+      enemySprite.flipX = false;
+    }
 
 
     //gets player location
