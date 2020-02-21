@@ -1,37 +1,43 @@
 fileFormatVersion: 2
-guid: 2d3187d27abb1d748bb1392b44a267b0
+guid: 4ac564eb1e362da4db3e13baca538a26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8388409209607576257
-    second: ChefDinoFlyFix_0
+      213: 3111472808912490266
+    second: Dino_Idle_0
   - first:
-      213: -8859711095936142877
-    second: ChefDinoFlyFix_1
+      213: 3787479659802076324
+    second: Dino_Idle_1
   - first:
-      213: -5058531207361398335
-    second: ChefDinoFlyFix_2
+      213: 4352621108957790850
+    second: Dino_Idle_2
   - first:
-      213: -3950817128799265050
-    second: ChefDinoFlyFix_3
+      213: 3269554050741570707
+    second: Dino_Idle_3
   - first:
-      213: -1160612947044572993
-    second: ChefDinoFlyFix_4
+      213: 301575904789528124
+    second: Dino_Idle_4
   - first:
-      213: -2290263033434915232
-    second: ChefDinoFlyFix_5
+      213: 4197523624982705780
+    second: Dino_Idle_5
   - first:
-      213: 5492537215978360664
-    second: ChefDinoFlyFix_6
+      213: -3960521423754551885
+    second: Dino_Idle_6
   - first:
-      213: 5118707734000349972
-    second: ChefDinoFlyFix_7
+      213: -825204514131194769
+    second: Dino_Idle_7
   - first:
-      213: -4235863223619962970
-    second: ChefDinoFlyFix_8
+      213: -1944535535763012464
+    second: Dino_Idle_8
   - first:
-      213: -6300988648594746878
-    second: ChefDinoFlyFix_9
+      213: 430295044405691759
+    second: Dino_Idle_9
+  - first:
+      213: 5350825505845126728
+    second: Dino_Idle_10
+  - first:
+      213: -4106271327642812887
+    second: Dino_Idle_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,211 +122,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChefDinoFlyFix_0
+      name: Dino_Idle_0
       rect:
         serializedVersion: 2
-        x: 178
-        y: 4974
-        width: 1090
-        height: 606
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab27a01aff01e674f9da02a180f4effe
-      internalID: -8388409209607576257
+      spriteID: 29ed2f175440f5d4f9204f4934cc1b0c
+      internalID: 3111472808912490266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_1
+      name: Dino_Idle_1
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 5000
-        width: 1182
-        height: 554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1440
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fdd646570bd9ae45aef7456788fbf3f
-      internalID: -8859711095936142877
+      spriteID: c96f572387377584c9ead8279ecd848c
+      internalID: 3787479659802076324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_2
+      name: Dino_Idle_2
       rect:
         serializedVersion: 2
-        x: 2986
-        y: 5004
-        width: 1222
-        height: 545
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2880
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4936afec0130444ab90cd999fb481d
-      internalID: -5058531207361398335
+      spriteID: f7b56d72232b76f4a827a0561a5166e4
+      internalID: 4352621108957790850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_3
+      name: Dino_Idle_3
       rect:
         serializedVersion: 2
-        x: 4388
-        y: 5013
-        width: 1296
-        height: 528
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4320
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c43928897eebae94693b85fe1efe0c3a
-      internalID: -3950817128799265050
+      spriteID: 43b153685d764344e89ed203a56d2cdd
+      internalID: 3269554050741570707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_4
+      name: Dino_Idle_4
       rect:
         serializedVersion: 2
-        x: 5891
-        y: 5018
-        width: 1173
-        height: 522
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5760
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2799b38285eb2e04299287b35ef4f3ef
-      internalID: -1160612947044572993
+      spriteID: a9c1279692df9d14ea4776d5fa263078
+      internalID: 301575904789528124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_5
+      name: Dino_Idle_5
       rect:
         serializedVersion: 2
-        x: 7341
-        y: 5022
-        width: 1160
-        height: 510
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7200
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56046b4e130c7d4b918626cd5d134dd
-      internalID: -2290263033434915232
+      spriteID: f05c67d6e386c464fadd3a6a2c9f8c14
+      internalID: 4197523624982705780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_6
+      name: Dino_Idle_6
       rect:
         serializedVersion: 2
-        x: 138
-        y: 3581
-        width: 1169
-        height: 522
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4988a4b2a6df1409d5b370527d3921
-      internalID: 5492537215978360664
+      spriteID: 997c19e15ecd8ba4f9c90c93b6de1f1c
+      internalID: -3960521423754551885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_7
+      name: Dino_Idle_7
       rect:
         serializedVersion: 2
-        x: 1510
-        y: 3580
-        width: 1292
-        height: 528
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1440
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5249807797bd31f429fa6c3317d618e5
-      internalID: 5118707734000349972
+      spriteID: d270961730190bc46b1b22aa511e6e73
+      internalID: -825204514131194769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_8
+      name: Dino_Idle_8
       rect:
         serializedVersion: 2
-        x: 2986
-        y: 3571
-        width: 1222
-        height: 545
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2880
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7d3000ab7bcc442a5c8dcdff86d255
-      internalID: -4235863223619962970
+      spriteID: a384874f5620fa445affa5dceafa6eb4
+      internalID: -1944535535763012464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefDinoFlyFix_9
+      name: Dino_Idle_9
       rect:
         serializedVersion: 2
-        x: 4445
-        y: 3567
-        width: 1182
-        height: 554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4320
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca02380738403f747a740bf850fb3928
-      internalID: -6300988648594746878
+      spriteID: 5501238cc2fcbb54384623dd3172c640
+      internalID: 430295044405691759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4f9ae72e039bc47a06972b70f45a89
+      internalID: 5350825505845126728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8c704579558b4f954bd8f1c1a2288
+      internalID: -4106271327642812887
       vertices: []
       indices: 
       edges: []
