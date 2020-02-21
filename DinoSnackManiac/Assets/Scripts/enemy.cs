@@ -15,6 +15,7 @@ public class enemy : MonoBehaviour {
 
   public GameObject player;
   public GameObject theEnemy;
+  private SpriteRenderer enemySprite;
   public Vector3 playerPos;
   public static int scoreEnemy = 0;
 
@@ -28,7 +29,7 @@ public class enemy : MonoBehaviour {
     //getting component references
     boxCollider = GetComponent<BoxCollider2D>();
     rigid = GetComponent<Rigidbody2D>();
-
+    enemySprite = GetComponent<SpriteRenderer>();
     //storing reciprocal of move speed we can use it to multiply instead of dividing (efficient)
     inverseMoveSpeed = 1f / moveSpeed;
 
@@ -43,6 +44,16 @@ public class enemy : MonoBehaviour {
   public void FixedUpdate() {
 
 
+    if (theEnemy.transform.position.x <= playerPos.x) {
+      //print("Player Location" + playerPos.y);
+      //print("Enemy Location" + theEnemy.transform.position.y);
+      
+      enemySprite.flipX = true;
+    }
+    else {
+      
+      enemySprite.flipX = false;
+    }
 
 
     //gets player location

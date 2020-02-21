@@ -12,18 +12,17 @@ public class PlayerController : MonoBehaviour
     public Camera cam;
     public GameObject GameMan;
 
-    private bool animation_bool;
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
     private Variables ammo;
-    private Animator animation;
+    private Animator anim;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         dino = GetComponent<SpriteRenderer>();
         ammo = GameMan.GetComponent<Variables>();
-        animation = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
 
 
     }
@@ -76,13 +75,21 @@ public class PlayerController : MonoBehaviour
             Vector3 newPosition = new Vector3(transform.position.x, 2, transform.position.z);
             transform.position = newPosition;
         }
-        if (Input.GetButtonDown("left") || Input.GetButtonDown("right"))
+        if (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
         {
-            animation_bool = true;
+            anim.SetBool("Walking", true);
         }
-        if (animation_bool == true)
+        else
         {
-            animation.Play("");
+            anim.SetBool("Walking", false);
+        }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            anim.SetBool("Throwing", true);
+        }
+        else
+        {
+            anim.SetBool("Throwing", false);
         }
     }
     void OnTriggerEnter2D(Collider2D coll)
