@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ac564eb1e362da4db3e13baca538a26
+guid: 498d60d6b841eb040b95b65f84669209
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -125,18 +125,18 @@ TextureImporter:
       name: Dino_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 260
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ed2f175440f5d4f9204f4934cc1b0c
+      spriteID: 12f397413d95b5b4a86d84bb07b7207e
       internalID: 3111472808912490266
       vertices: []
       indices: 
@@ -146,18 +146,18 @@ TextureImporter:
       name: Dino_Idle_1
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1678
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96f572387377584c9ead8279ecd848c
+      spriteID: 7b9708d54ba4e494c8f5bade504666ae
       internalID: 3787479659802076324
       vertices: []
       indices: 
@@ -167,18 +167,18 @@ TextureImporter:
       name: Dino_Idle_2
       rect:
         serializedVersion: 2
-        x: 2880
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3145
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b56d72232b76f4a827a0561a5166e4
+      spriteID: 54cc5f055473f214aae049c1c3d5a463
       internalID: 4352621108957790850
       vertices: []
       indices: 
@@ -188,18 +188,18 @@ TextureImporter:
       name: Dino_Idle_3
       rect:
         serializedVersion: 2
-        x: 4320
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4575
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43b153685d764344e89ed203a56d2cdd
+      spriteID: 454bb2a954f592e429350755966df245
       internalID: 3269554050741570707
       vertices: []
       indices: 
@@ -209,18 +209,18 @@ TextureImporter:
       name: Dino_Idle_4
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6005
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9c1279692df9d14ea4776d5fa263078
+      spriteID: 6c322ae4aa3391040b5011c98d8cfb0d
       internalID: 301575904789528124
       vertices: []
       indices: 
@@ -230,18 +230,18 @@ TextureImporter:
       name: Dino_Idle_5
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 1435
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7445
+        y: 1728
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05c67d6e386c464fadd3a6a2c9f8c14
+      spriteID: f3a12855c11808f47811081ee22758d9
       internalID: 4197523624982705780
       vertices: []
       indices: 
@@ -251,18 +251,18 @@ TextureImporter:
       name: Dino_Idle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 260
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997c19e15ecd8ba4f9c90c93b6de1f1c
+      spriteID: 37c01bc024b7ce645b198d8165b279e2
       internalID: -3960521423754551885
       vertices: []
       indices: 
@@ -272,18 +272,18 @@ TextureImporter:
       name: Dino_Idle_7
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1700
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d270961730190bc46b1b22aa511e6e73
+      spriteID: 209ec702f34da2e4abea37da92b776e7
       internalID: -825204514131194769
       vertices: []
       indices: 
@@ -293,18 +293,18 @@ TextureImporter:
       name: Dino_Idle_8
       rect:
         serializedVersion: 2
-        x: 2880
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3158
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a384874f5620fa445affa5dceafa6eb4
+      spriteID: beefdb3006b1fc24bb1cf82f66f872c0
       internalID: -1944535535763012464
       vertices: []
       indices: 
@@ -314,18 +314,18 @@ TextureImporter:
       name: Dino_Idle_9
       rect:
         serializedVersion: 2
-        x: 4320
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4602
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5501238cc2fcbb54384623dd3172c640
+      spriteID: 7f4b29827566d9f418ff109dad9cece8
       internalID: 430295044405691759
       vertices: []
       indices: 
@@ -335,18 +335,18 @@ TextureImporter:
       name: Dino_Idle_10
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6032
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4f9ae72e039bc47a06972b70f45a89
+      spriteID: 22de805c3ebfc5f48b34f6c9309758bc
       internalID: 5350825505845126728
       vertices: []
       indices: 
@@ -356,18 +356,18 @@ TextureImporter:
       name: Dino_Idle_11
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 0
-        width: 1440.3334
-        height: 1435
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7467
+        y: 289
+        width: 950
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b8c704579558b4f954bd8f1c1a2288
+      spriteID: e36168db810da0e4ab7bd3915521f09c
       internalID: -4106271327642812887
       vertices: []
       indices: 
