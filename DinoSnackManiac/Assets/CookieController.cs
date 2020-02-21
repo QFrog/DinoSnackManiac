@@ -14,7 +14,7 @@ public class CookieController : MonoBehaviour
         cookieBody = GetComponent<Rigidbody2D>();
         cookieBody.constraints = RigidbodyConstraints2D.None;
     }
-    void FixedUpdate()
+    void Update()
     {
         random = Random.Range(2, -4);
         if (cookieLoc.position.y > (random - 0.1) && cookieLoc.position.y < (random + 0.1))
