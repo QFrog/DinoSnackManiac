@@ -12,19 +12,18 @@ public class PlayerController : MonoBehaviour
     public Camera cam;
     public GameObject GameMan;
 
-    private bool walking;
-    private bool throwing;
+    private bool animation_bool;
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
     private Variables ammo;
-    private Animator anim;
+    private Animator animation;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         dino = GetComponent<SpriteRenderer>();
         ammo = GameMan.GetComponent<Variables>();
-        anim = GetComponent<Animator>();
+        animation = GetComponent<Animator>();
 
 
     }
@@ -77,21 +76,13 @@ public class PlayerController : MonoBehaviour
             Vector3 newPosition = new Vector3(transform.position.x, 2, transform.position.z);
             transform.position = newPosition;
         }
-        if (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
+        if (Input.GetButtonDown("left") || Input.GetButtonDown("right"))
         {
-            anim.SetBool("Walking", true);
+            animation_bool = true;
         }
-        else
+        if (animation_bool == true)
         {
-            anim.SetBool("Walking", false);
-        }
-        if (Input.GetButtonDown("Fire1"))
-        {
-            anim.SetBool("Throwing", true);
-        }
-        else
-        {
-            anim.SetBool("Throwing", false);
+            animation.Play("");
         }
     }
     void OnTriggerEnter2D(Collider2D coll)
@@ -107,7 +98,7 @@ public class PlayerController : MonoBehaviour
             ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
             Destroy(coll.gameObject);
         }
-    if (coll.gameObject.tag == "enemy"|| coll.gameObject.tag == "enemy1" || coll.gameObject.tag == "enemy2") {
+    if (coll.gameObject.tag == "enemy") {
       SceneManager.LoadScene("StartScene");
     }
     }

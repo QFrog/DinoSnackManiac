@@ -6,9 +6,6 @@ public class spawner : MonoBehaviour {
 
   //Enemy
   public GameObject cookieEnemyPrefab;
-  public GameObject cookieEnemyPrefab1;
-  public GameObject cookieEnemyPrefab2;
-
   public GameObject spawnerPrefab;
   //Spawner Variables
   private float waveGrowth = 1f;
@@ -20,7 +17,7 @@ public class spawner : MonoBehaviour {
   public float stagger = .3f;
 
   private int scoreMultiplier = 500;
-  //private float localScore = 0f;
+  private float localScore = 0f;
 
   //random number at start
   private void Start() {
@@ -79,15 +76,7 @@ public class spawner : MonoBehaviour {
 
     for (enemiesToSpawn = (waveGrowth /** scoreMultiplier*/); enemiesToSpawn >= 0; enemiesToSpawn--) {
       yield return new WaitForSeconds(stagger);
-      if (Random.Range(1, 3) == 1) {
-        GameObject spawner = Instantiate(cookieEnemyPrefab, spawnerPos, Quaternion.identity) as GameObject;
-      }
-      else if (Random.Range(1, 3) == 1) {
-        GameObject spawner = Instantiate(cookieEnemyPrefab1, spawnerPos, Quaternion.identity) as GameObject;
-      }
-      else {
-        GameObject spawner = Instantiate(cookieEnemyPrefab2, spawnerPos, Quaternion.identity) as GameObject;
-      }
+      GameObject spawner = Instantiate(cookieEnemyPrefab, spawnerPos, Quaternion.identity) as GameObject;
     }
     // yield return new WaitForSeconds(stagger);
     //print(Fibonacci(waveGrowth));
