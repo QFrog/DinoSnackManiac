@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 4ac564eb1e362da4db3e13baca538a26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3111472808912490266
+    second: Dino_Idle_0
+  - first:
+      213: 3787479659802076324
+    second: Dino_Idle_1
+  - first:
+      213: 4352621108957790850
+    second: Dino_Idle_2
+  - first:
+      213: 3269554050741570707
+    second: Dino_Idle_3
+  - first:
+      213: 301575904789528124
+    second: Dino_Idle_4
+  - first:
+      213: 4197523624982705780
+    second: Dino_Idle_5
+  - first:
+      213: -3960521423754551885
+    second: Dino_Idle_6
+  - first:
+      213: -825204514131194769
+    second: Dino_Idle_7
+  - first:
+      213: -1944535535763012464
+    second: Dino_Idle_8
+  - first:
+      213: 430295044405691759
+    second: Dino_Idle_9
+  - first:
+      213: 5350825505845126728
+    second: Dino_Idle_10
+  - first:
+      213: -4106271327642812887
+    second: Dino_Idle_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dino_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed2f175440f5d4f9204f4934cc1b0c
+      internalID: 3111472808912490266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f572387377584c9ead8279ecd848c
+      internalID: 3787479659802076324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b56d72232b76f4a827a0561a5166e4
+      internalID: 4352621108957790850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b153685d764344e89ed203a56d2cdd
+      internalID: 3269554050741570707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c1279692df9d14ea4776d5fa263078
+      internalID: 301575904789528124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1435
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05c67d6e386c464fadd3a6a2c9f8c14
+      internalID: 4197523624982705780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997c19e15ecd8ba4f9c90c93b6de1f1c
+      internalID: -3960521423754551885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d270961730190bc46b1b22aa511e6e73
+      internalID: -825204514131194769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384874f5620fa445affa5dceafa6eb4
+      internalID: -1944535535763012464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5501238cc2fcbb54384623dd3172c640
+      internalID: 430295044405691759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4f9ae72e039bc47a06972b70f45a89
+      internalID: 5350825505845126728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1440.3334
+        height: 1435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8c704579558b4f954bd8f1c1a2288
+      internalID: -4106271327642812887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

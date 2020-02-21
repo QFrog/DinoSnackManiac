@@ -6,22 +6,25 @@ public class CookieController : MonoBehaviour
 {
     private Rigidbody2D cookieBody;
     private Transform cookieLoc;
+    private Animator anim;
     int count;
-    int random;
+    float random;
     void Start()
     {
+        anim = GetComponent<Animator>();
         cookieLoc = GetComponent<Transform>();
         cookieBody = GetComponent<Rigidbody2D>();
         cookieBody.constraints = RigidbodyConstraints2D.None;
     }
-    void Update()
+    void FixedUpdate()
     {
-        random = Random.Range(2, -4);
+        random = Random.Range(2.0f, -3.8f);
         if (cookieLoc.position.y > (random - 0.1) && cookieLoc.position.y < (random + 0.1))
         {
-            //Debug.Log("Stopping cookie");
+            Debug.Log("Stopping cookie");
             cookieBody.isKinematic = false;
             cookieBody.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+            anim.SetBool("landed", true);
         }
         count++;
         //Debug.Log(count);
