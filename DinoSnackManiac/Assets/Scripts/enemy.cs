@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour {
 
-  //private float baseMS = 0.5f;
-  public static float moveSpeed = 0.5f;
+
+  public float moveSpeed = 0.5f;
   public LayerMask collisionLayer;
 
   private BoxCollider2D boxCollider;
-  public Rigidbody2D rigid;
+  private Rigidbody2D rigid;
   private float inverseMoveSpeed; //used for efficiency 
   private float counter = 0;
 
@@ -22,13 +22,9 @@ public class enemy : MonoBehaviour {
   public bool enemyHit = false;
   private float timeCount = 0f;
 
-  //public Animator anim;
-  private Animator anim1;
 
   //Protected virtual functions can be overriden by inheriting classes
   protected virtual void Start() {
-
-
 
     //getting component references
     boxCollider = GetComponent<BoxCollider2D>();
@@ -37,7 +33,9 @@ public class enemy : MonoBehaviour {
     //storing reciprocal of move speed we can use it to multiply instead of dividing (efficient)
     inverseMoveSpeed = 1f / moveSpeed;
 
-   
+    // GameObject thePlayer = GameObject.Find("PlayerDino");
+    //PlayerController playerL = thePlayer.GetComponent<PlayerController>();
+    //playerPos = playerL.playerLocation;
 
   }
 
@@ -129,7 +127,6 @@ public class enemy : MonoBehaviour {
 
   }
 
-  
   //keeps players and enemies from spinning
   private void standUp() {
     transform.localEulerAngles = new Vector3(0, 0, 0);
@@ -137,8 +134,9 @@ public class enemy : MonoBehaviour {
 
 
   public void OnDisable() {
-    
+   
     scoreEnemy += 100;
+    //print(scoreEnemy);
 
   }
 
