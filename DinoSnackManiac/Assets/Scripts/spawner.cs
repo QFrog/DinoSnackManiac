@@ -38,7 +38,7 @@ public class spawner : MonoBehaviour {
       StartCoroutine(cookieSpawner());
       //spawnCookie();
       timeUntilSpawn = 0;
-      waveGrowth += (.05f + (GameManager.score/10000));
+      waveGrowth += (.05f + (GameManager.score/20000));
      // print("WaveGro: " + waveGrowth);
       if (waveGrowth >= 10) {
         waveGrowth = 10;

@@ -124,11 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1528950bab677c44cbae8e8aa27f53f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
   collisionLayer:
     serializedVersion: 2
     m_Bits: 0
-  player: {fileID: 4323250456553391490, guid: 1e08ca79bee8447408806600180a0fcf, type: 3}
+  player: {fileID: 0}
   theEnemy: {fileID: 3441297526173582944}
   playerPos: {x: 0, y: 0, z: 0}
   enemyHit: 0
