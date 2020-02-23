@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5373c081b95ff147ae18367cda49833
+guid: 0a988f8372298f44e8afda7b8695b771
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: -5402412272178277761
     second: Buttons_2
+  - first:
+      213: 2013261503205373015
+    second: Buttons_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,10 +101,10 @@ TextureImporter:
       name: Buttons_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 479
-        width: 583
-        height: 111
+        x: 656
+        y: 92
+        width: 346
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,7 +112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcca98e308ef89a44a484d6283cb4cf1
+      spriteID: 4f706e2b96846424199883fdd7085ade
       internalID: 8894201953851282084
       vertices: []
       indices: 
@@ -119,10 +122,10 @@ TextureImporter:
       name: Buttons_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 215
-        width: 570
-        height: 227
+        x: 0
+        y: 479
+        width: 587
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64dceabb7f878104c8f000395c74de45
+      spriteID: eeac357ba73b61348afd90077e5f442c
       internalID: 7664807735657788756
       vertices: []
       indices: 
@@ -140,10 +143,10 @@ TextureImporter:
       name: Buttons_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 0
+        x: 15
+        y: 222
         width: 557
-        height: 133
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +154,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ac76371f36a5a488f0c8bc1aea9327
+      spriteID: 081f339305a1c194883763fcc64d773a
       internalID: -5402412272178277761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 553
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d913d590a506d04f8bfe53c001e3c5b
+      internalID: 2013261503205373015
       vertices: []
       indices: 
       edges: []
