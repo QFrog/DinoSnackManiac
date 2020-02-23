@@ -104,9 +104,9 @@ TextureImporter:
       name: Enemy4Anim_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 3
         y: 296
-        width: 181
+        width: 182
         height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -125,9 +125,9 @@ TextureImporter:
       name: Enemy4Anim_1
       rect:
         serializedVersion: 2
-        x: 210
+        x: 209
         y: 296
-        width: 181
+        width: 182
         height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -146,9 +146,9 @@ TextureImporter:
       name: Enemy4Anim_2
       rect:
         serializedVersion: 2
-        x: 417
+        x: 416
         y: 296
-        width: 181
+        width: 182
         height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -167,9 +167,9 @@ TextureImporter:
       name: Enemy4Anim_3
       rect:
         serializedVersion: 2
-        x: 4
+        x: 3
         y: 2
-        width: 181
+        width: 182
         height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -188,9 +188,9 @@ TextureImporter:
       name: Enemy4Anim_4
       rect:
         serializedVersion: 2
-        x: 210
+        x: 209
         y: 2
-        width: 181
+        width: 182
         height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
