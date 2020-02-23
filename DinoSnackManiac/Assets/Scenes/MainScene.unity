@@ -802,7 +802,11 @@ RectTransform:
   - {fileID: 494880845}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 11
+=======
+  m_RootOrder: 15
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   m_RootOrder: 15
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -1630,7 +1634,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 10
+=======
+  m_RootOrder: 14
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   m_RootOrder: 14
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83

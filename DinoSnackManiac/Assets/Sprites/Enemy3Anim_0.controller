@@ -63,7 +63,11 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7554082108205703197}
+=======
+  - {fileID: -6053331719031899002}
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - {fileID: -6053331719031899002}
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -103,6 +107,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -8138125570037520737}
     m_Position: {x: 322.57385, y: -124.1069, z: 0}
+<<<<<<< HEAD
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
+=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -124,7 +131,11 @@ AnimatorController:
   serializedVersion: 5
   m_AnimatorParameters:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_Name: explosion
+=======
+  - m_Name: Dead
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - m_Name: Dead
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83

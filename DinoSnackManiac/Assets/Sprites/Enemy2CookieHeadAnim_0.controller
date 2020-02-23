@@ -1,7 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1101 &-4919575048481785399
+=======
+--- !u!1101 &-7684963333489472108
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
 --- !u!1101 &-7684963333489472108
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -14,24 +18,36 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ConditionEvent: explosion
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2092692035540134447}
 =======
+=======
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
     m_ConditionEvent: Dead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 599199340331303501}
+<<<<<<< HEAD
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
+=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.6590909
+=======
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   m_TransitionDuration: 0
   m_TransitionOffset: 0
@@ -54,7 +70,11 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -4919575048481785399}
+=======
+  - {fileID: -7684963333489472108}
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - {fileID: -7684963333489472108}
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -111,15 +131,21 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -3864790749623362718}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Position: {x: 290, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2092692035540134447}
     m_Position: {x: 290, y: 240, z: 0}
 =======
+=======
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
     m_Position: {x: 250, y: 80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 599199340331303501}
     m_Position: {x: 220, y: -80, z: 0}
+<<<<<<< HEAD
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
+=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -141,7 +167,11 @@ AnimatorController:
   serializedVersion: 5
   m_AnimatorParameters:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_Name: explosion
+=======
+  - m_Name: Dead
+>>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - m_Name: Dead
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
