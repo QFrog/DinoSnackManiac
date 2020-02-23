@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
     private Variables ammo;
-    private Animator anim;
+    public Animator anim;
 
     void Start()
     {
@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             ammo.cookieText3.text = ammo.cookieAmmo3.ToString();
             Destroy(coll.gameObject);
         }
-    if (coll.gameObject.tag == "enemy") {
+    if (coll.gameObject.tag == "enemy" || coll.gameObject.tag == "enemy1" || coll.gameObject.tag == "enemy2") {
       SceneManager.LoadScene("GameOver");
     }
     }

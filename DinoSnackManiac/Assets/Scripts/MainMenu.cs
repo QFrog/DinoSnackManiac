@@ -21,6 +21,14 @@ public class MainMenu : MonoBehaviour {
   public void tutorial() {
     SceneManager.LoadScene("Tutorial");
   }
+  public void tutorial1() {
+    SceneManager.LoadScene("Tutorial 1");
+  }
+
+  public void mainMenu() {
+    SceneManager.LoadScene("StartScene");
+  }
+
 
   public void StartButton() {
     startButton.SetActive(false);
