@@ -40,13 +40,8 @@ AnimatorStateMachine:
     m_Position: {x: 200, y: 0, z: 0}
   - serializedVersion: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_State: {fileID: -6498583559182564759}
     m_Position: {x: 347.2067, y: 230.28635, z: 0}
-=======
-    m_State: {fileID: 4081163183583973743}
-    m_Position: {x: 353.30518, y: -112.08159, z: 0}
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
     m_State: {fileID: 4081163183583973743}
     m_Position: {x: 353.30518, y: -112.08159, z: 0}
@@ -73,11 +68,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
 <<<<<<< HEAD
-<<<<<<< HEAD
   - {fileID: 8830969896581958764}
-=======
-  - {fileID: 282504443753878994}
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - {fileID: 282504443753878994}
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -106,11 +97,7 @@ AnimatorController:
   serializedVersion: 5
   m_AnimatorParameters:
 <<<<<<< HEAD
-<<<<<<< HEAD
   - m_Name: explosion
-=======
-  - m_Name: Dead
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
   - m_Name: Dead
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -133,11 +120,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1101 &8830969896581958764
-=======
---- !u!1101 &282504443753878994
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 =======
 --- !u!1101 &282504443753878994
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
@@ -150,52 +133,37 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_ConditionEvent: explosion
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6498583559182564759}
 =======
-=======
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
     m_ConditionEvent: Dead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4081163183583973743}
-<<<<<<< HEAD
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
-=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.6590909
   m_HasExitTime: 1
 =======
-=======
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 0
-<<<<<<< HEAD
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
-=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
 --- !u!1102 &4081163183583973743
 AnimatorState:
   serializedVersion: 5
@@ -222,7 +190,4 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< HEAD
->>>>>>> e1d266189877270eb1447120ce0521b7be734d83
-=======
 >>>>>>> e1d266189877270eb1447120ce0521b7be734d83
