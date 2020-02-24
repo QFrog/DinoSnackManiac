@@ -1961,7 +1961,8 @@ PrefabInstance:
         type: 3}
       propertyPath: cookieEnemyPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2670419663153288115, guid: 5810f4cd7d2601046864ad1fc5059afc,
+        type: 3}
     - target: {fileID: 7451098139269493400, guid: d9cbab2cbd4fb1f489b8bcf4df28321b,
         type: 3}
       propertyPath: cookieEnemyPrefab1
@@ -3525,5 +3526,15 @@ PrefabInstance:
       propertyPath: GameMan
       value: 
       objectReference: {fileID: 532891667}
+    - target: {fileID: 8859961239604065466, guid: a5497cc610d96c84d8207a6ce8b293fc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859961239604065466, guid: a5497cc610d96c84d8207a6ce8b293fc,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5497cc610d96c84d8207a6ce8b293fc, type: 3}
