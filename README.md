@@ -13,8 +13,11 @@ Press left click to throw cookies
 
 # Resources
 Unity
+
 Visual Studio Code
+
 Github
+
 Adode Photoshop
 
 # Credits
@@ -29,4 +32,4 @@ Brooke Mahoney, Artist
 University of Wisconsin - Stout, 2020
 
 # Known Bugs
-Walk and throw animations don't fully function all the timer
+Walk and throw animations don't fully function all the time.
