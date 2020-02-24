@@ -33,3 +33,5 @@ University of Wisconsin - Stout, 2020
 
 # Known Bugs
 Walk and throw animations don't fully function all the time.
+
+Start and credits scenes don't scale properly and all the buttons on all screens don't scale properly.
