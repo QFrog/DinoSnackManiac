@@ -29,6 +29,10 @@ public class MainMenu : MonoBehaviour {
     SceneManager.LoadScene("StartScene");
   }
 
+  public void goCredits() {
+    SceneManager.LoadScene("Credits");
+  }
+
 
   public void StartButton() {
     startButton.SetActive(false);
