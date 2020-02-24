@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class PlayerController : MonoBehaviour
     Vector3 change;
     public Camera cam;
     public GameObject GameMan;
+    public GameObject death;
+    public GameObject death2;
+    public Image cross;
 
     private Rigidbody2D rb2d;
     private SpriteRenderer dino;
@@ -23,7 +27,7 @@ public class PlayerController : MonoBehaviour
         dino = GetComponent<SpriteRenderer>();
         ammo = GameMan.GetComponent<Variables>();
         anim = GetComponent<Animator>();
-
+        Time.timeScale = 1;
 
     }
     void Update()
@@ -106,7 +110,11 @@ public class PlayerController : MonoBehaviour
             Destroy(coll.gameObject);
         }
     if (coll.gameObject.tag == "enemy" || coll.gameObject.tag == "enemy1" || coll.gameObject.tag == "enemy2") {
-      SceneManager.LoadScene("GameOver");
-    }
+            Time.timeScale = 0;
+            cross.enabled = false;
+            death.SetActive(true);
+            death2.SetActive(true);
+            //SceneManager.LoadScene("GameOver");
+        }
     }
 }
