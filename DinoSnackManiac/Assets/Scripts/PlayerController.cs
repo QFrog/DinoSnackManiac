@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayerController : MonoBehaviour {
-  public float speed;
-  bool facingRight = true;
-  public Vector3 playerLocation; //I'm using this for enemy tracking
-  Vector3 change;
-  public Camera cam;
-  public GameObject GameMan;
+public class PlayerController : MonoBehaviour
+{
+    public float speed;
+    bool facingRight = true;
+    public Vector3 playerLocation; //I'm using this for enemy tracking
+    Vector3 change;
+    public Camera cam;
+    public GameObject GameMan;
+    public GameObject death;
+    public GameObject death2;
+    public Image cross;
 
   private Rigidbody2D rb2d;
   private SpriteRenderer dino;
@@ -17,20 +22,13 @@ public class PlayerController : MonoBehaviour {
   private Animator anim;
   private Animation animTest;
 
-  void Start() {
-    rb2d = GetComponent<Rigidbody2D>();
-    dino = GetComponent<SpriteRenderer>();
-    ammo = GameMan.GetComponent<Variables>();
-    anim = GetComponent<Animator>();
-    animTest = GetComponent<Animation>();
-
-  }
-  void Update() {
-    var delta = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-    playerLocation = transform.position;
-    var bottomLeft = cam.ScreenToWorldPoint(Vector3.zero);
-    var topRight = cam.ScreenToWorldPoint(new Vector3(
-        cam.pixelWidth, cam.pixelHeight));
+    void Start()
+    {
+        rb2d = GetComponent<Rigidbody2D>();
+        dino = GetComponent<SpriteRenderer>();
+        ammo = GameMan.GetComponent<Variables>();
+        anim = GetComponent<Animator>();
+        Time.timeScale = 1;
 
     var cameraRect = new Rect(
      bottomLeft.x,
@@ -97,9 +95,11 @@ public class PlayerController : MonoBehaviour {
       Destroy(coll.gameObject);
     }
     if (coll.gameObject.tag == "enemy" || coll.gameObject.tag == "enemy1" || coll.gameObject.tag == "enemy2") {
-      SceneManager.LoadScene("GameOver");
+            Time.timeScale = 0;
+            cross.enabled = false;
+            death.SetActive(true);
+            death2.SetActive(true);
+            //SceneManager.LoadScene("GameOver");
+        }
     }
-  }
-
-
 }

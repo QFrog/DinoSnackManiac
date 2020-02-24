@@ -8,11 +8,13 @@ public class CookieInteraction : MonoBehaviour {
   private GameObject cookieType1;
   private GameObject cookieType2;
 
-  private void Start() {
+    private void Update()
+    {
+        Debug.Log("roating cookie");
+        transform.Rotate(0, 0, 9999 * Time.deltaTime);
+    }
 
-  }
-
-  void OnTriggerEnter2D(Collider2D coll) {
+    void OnTriggerEnter2D(Collider2D coll) {
 
     if (coll.gameObject.tag == "enemy" && this.gameObject.tag == "ammo2") {
       Destroy(coll.gameObject);

@@ -5,7 +5,6 @@ using System.Collections;
 public class AudioController : MonoBehaviour
 {
     public AudioSource loopMusic;
-    public AudioClip comboMusic;
     private AudioSource introMusic;
     void Start()
     {
