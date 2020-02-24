@@ -1,39 +1,32 @@
 # DinoSnackManiac
-how to use github on unity
-1. install github desktop
-2. connect github desktop to master
-3. pull changes
-4. changes should be reflected in unity with a reload
-
 # Description
-The game about dino's throwing cookies at people.
+You play as a T-Rex dinosaur who has to protect himself from cookie hungry hordes of people by throwing the cookies they want at them before they reach him. You get periodic refills from the chef pterodactyl who drops cookie boxes onto the playing field.
 
 # Controls
 
 # Menu Navigation
-Press up and down to highlight the above or below buttons, respectively
-Press enter to activate that button
+Click the buttons on the screen to naviagte to their respective locations
 # In-Game Controls
-Press the left and right arrow keys to move left and right, respectively
-Press the down arrow key to drop through platforms
-Press 'E' to interact
-Press 'Escape' to pause the game
+Press the w, a, s, d keys to move up, left, down, and right respectively
+Press 1, 2, and 3 keys to change cookies
+Press left click to throw cookies
 
 # Resources
 Unity
 Visual Studio Code
 Github
+Adode Photoshop
 
 # Credits
-Quinn Huhnke Programmer
+Quinn Huhnke, Programmer
 
-, Programmer
+Brandon Aukofer, Programmer
 
-, Artist
+Tanner Brun, Artist
 
-, Artist
+Brooke Mahoney, Artist
 
 University of Wisconsin - Stout, 2020
 
 # Known Bugs
-N/A
+Walk and throw animations don't fully function all the timer
